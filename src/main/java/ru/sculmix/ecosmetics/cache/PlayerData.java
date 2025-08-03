@@ -157,6 +157,14 @@ public class PlayerData {
 
     /**
      *
+     * @return if the player is in the process of exiting the zone
+     */
+    public boolean isExitingZone() {
+        throw new MCNotInstalledException();
+    }
+
+    /**
+     *
      * @return how many cosmetics the player is equipped with.
      */
     public int getEquippedCount(){
